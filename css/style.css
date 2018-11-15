@@ -1,9 +1,33 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,700,700i');
 /*////////// Global Styles //////////*/
-
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+embed,
+iframe,
+img,
+object,
+video {
+	max-width: 100%;
+	width: 100%;
+	vertical-align: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -18,3 +42,53 @@ body {
 }
 
 /* Write all remaining styles here */
+#logo {
+  font-size: 90px;
+  font-family: "Cormorant Garamond";
+  font-weight: 400;
+  color: rgb(148, 174, 167);
+  line-height: 1;
+  margin: 0;
+}
+header img {
+  border: solid 5px rgb(148, 174, 167);
+}
+h2 {
+  color: rgb(109, 128, 123);
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1rem 0 .35rem;
+	padding: 0;
+}
+#press {
+  overflow: auto;
+}
+#press a {
+  width: 24.6%;
+  background-color: rgb(201,	204,	205);
+  display: block;
+  float: left;
+  padding: 5px;
+  margin: 0;
+  margin-left: .5%;
+}
+#press a:first-of-type {
+  margin: 0;
+}
+#press a:hover {
+  background-color: rgb(109, 128, 123);
+}
+#press a img {
+  margin: 0;
+  border: 2px solid #fff;
+  vertical-align: baseline;
+}
+footer p {
+  font-size: .75rem;
+  text-align: right;
+  color: rgb(109, 128, 123);
+}
