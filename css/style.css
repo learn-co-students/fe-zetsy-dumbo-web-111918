@@ -1,20 +1,89 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-size: 1em;
+	font-family: 'Times New Roman', serif;
+	color: rgba(149,155,150,1);
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0px 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	border-bottom: 1px solid #ccc
+}
+
+
+h1, h2 {
+	font-family: 'Libre Baskerville', serif;
+	color: rgba(158,174,169,1);
+}
+
+h2 {
+	font-size: 1.8em;
+	font-weight: bolder;
+}
+
+#about p {
+	font-size: .92em;
+}
+
+#footer {
+	text-align: right;
+	background: #fff
+}
+
+.clearfix:after {
+  content: ".";
+  display:block
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+img[alt = "necklace"] {
+	max-width: 100%;
+	border: solid;
+	border-width: thick;
+	border-color: rgba(158,174,169,1);
+}
+#press img {
+	max-width: 24%;
+	border:solid;
+	border-width: thick;
+	border-color: rgba(158,174,169,1);
+	padding: 1px;
+}
+#press img:hover {
+	border: thick rgb(111,127,122) solid;
+}
+
+#about a {
+	text-decoration: none;
+}
+
+#about a:hover {
+	text-decoration: underline;;
+}
